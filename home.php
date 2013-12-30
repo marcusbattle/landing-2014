@@ -1,0 +1,205 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<?php wp_head(); ?>
+		<link rel="stylesheet" type="text/css" href="<?php echo get_bloginfo('template_directory') ?>/assets/css/landing.css">
+	</head>
+	<body>
+		<section id="top">
+			<div class="overlay">
+				<div class="content">
+					<a id="logo"><img src="<?php echo get_bloginfo('template_directory') ?>/assets/img/the-platform-logo.png" /></a>
+					<h2>Fifteen performers. One stage. <br />Your chance.</h2>
+					<div class="btn-group">
+						<a class="btn outline">Learn More</a>
+						<a class="btn orange">Audition Now</a>
+					</div>
+				</div>
+			</div>
+			<video preload="auto" poster="<?php echo get_bloginfo('template_directory') ?>/assets/img/band-blue.jpg" autoplay="" loop="" muted="">
+				<source src="<?php echo get_bloginfo('template_directory') ?>/assets/video/band-blue.mp4" type="video/mp4" />
+				Your browser does not support the HTML5 video tag. Please upgrade it.
+			</video>
+			<div id="css-video" style="background-image: url(<?php echo get_bloginfo('template_directory') ?>/assets/img/band-blue-small.gif);"></div>
+		</section>
+		<section>
+			<div class="content left-align">
+				<h3>Sing. Play. Dance. Inspire.</h3>
+				<span>The Platform is an inspiriational talent competition for singers, musicians and dancers.</span>
+				<p>The Platform is in search of the most inspirational singers, musicians and dancers on the East Coast. On March 28, 2014, 15 finalists will compete at the historic Greensboro Carolina Theatre for a cash prize of $1,000. After intense performances and moving melodies, the audience along with guest judges will decide who the most inspirational person is. The evening will conclude with a scholarship giveaway to area college students.</p>
+				<p>&nbsp;</p>
+				<div class="left-wide">
+					<img src="<?php echo get_bloginfo('template_directory') ?>/assets/img/carolina-theatre.jpg" /> 
+					<p><small>Carolina Theatre, Greensboro, NC</small></p>
+				</div>
+				<div style="float: left; width: 260px;">
+					<h4 class="blue">March 28, 2014</h4>
+					<p style="line-height: 22px;">Carolina Theatre<br />310 S. Greene St<br />Greensboro, NC</p>
+					<p>Time: 7-10PM</p>
+					<a class="btn blue outline" style="margin-top: 10px;">Buy Ticket $10</a>
+				</div>
+			</div>
+		</section>
+		<section class="quote">
+			<span>"Everyone has talent. What's rare is the courage to follow it to the dark places where it leads." <i>- Erica Long</i></span>
+		</section>
+		<section>
+			<div class="content">
+				<h3>Prizes</h3>
+				<p>&nbsp;</p>
+				<div class="third">
+					<h4>3 winners</h4>
+					<p>One winner for each category (singing, playing, dancing) will be selected as the most inspirational performer.</p>
+				</div>
+				<div class="third">
+					<h4>$2000 Cash</h4>
+					<p>Each category winner will win $500 cash. Afterwards, the audience will select one "People's Choice" winner for $500.</p>
+				</div>
+				<div class="third">
+					<h4>Recording Contract</h4>
+					<p>Each winner will have their choice of professional recording studio time at <a href="http://www.recordunderground.com" target="_blank">Underground Sound</a> or videography services.</p>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="content">
+				<div>
+					<h3>Audition Dates</h3>
+					<span>If you would like to host an audition in your city, email <a href="mailto:info@theplatformnc.com">info@theplatformnc.com</a></span>
+					<table class="breakaway">
+						<thead>
+							<tr>
+								<th>Date</th>
+								<th>Time</th>
+								<th width="400px">Location</th>
+								<th width="180px"></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>January 18th</td>
+								<td>7-10PM</td>
+								<td>CTS Productions<br />205 Lyndon St, Greensboro, NC</td>
+								<td><a class="btn orange outline">Register $5</a></td>
+							</tr>
+							<tr>
+								<td>January 22nd</td>
+								<td>3-7PM</td>
+								<td>NCA&amp;T</td>
+								<td>TBA</td>
+							</tr>
+							<tr>
+								<td>January 23rd</td>
+								<td>3-7PM</td>
+								<td>NCA&amp;T</td>
+								<td>TBA</td>
+							</tr>
+							<!-- <tr>
+								<td>Janaury 24th</td>
+								<td>5-8PM</td>
+								<td>Raleigh, NC</td>
+								<td>TBA</td>
+							</tr> -->
+							<!-- <tr>
+								<td>Janaury 25th</td>
+								<td>10AM-2PM</td>
+								<td>Winston Salem, NC</td>
+								<td>TBA</td>
+							</tr> -->
+							<tr>
+								<td>January 29th</td>
+								<td>4-7PM</td>
+								<td>UNCG<br />EUC Birch RM</td>
+								<td><a class="btn orange outline">Register $5</a></td>
+							</tr>
+							<tr>
+								<td>January 30th</td>
+								<td>4-7PM</td>
+								<td>UNCG<br />EUC Birch RM</td>
+								<td><a class="btn orange outline">Register $5</a></td>
+							</tr>
+							<tr>
+								<td>February 1st</td>
+								<td>10AM-3PM</td>
+								<td>Raleigh, NC</td>
+								<td>TBA</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<p><strong>Why does it cost to audition?</strong> A portion of each registration provides scholarships for North Carolina college students.</p>
+				<p>&nbsp;</p>
+				<hr />
+				<p>&nbsp;</p>
+				<h4>Audition Online</h4>
+				<img src="<?php echo get_bloginfo('template_directory') ?>/assets/icons/youtube-square.png" align="left" style="margin-right: 20px;" />
+				<span class="left-align">If you can't make an in person audition, you may audition online up until Midnight, Saturday February 15th. Simply upload a video to YouTube and <a class="red">Register</a>.</span>
+			</div>
+		</section>
+		<section class="quote">
+			<span>"An inspirational talent motivates and encourages you to forget what you think you can't do." <i>-The Platform</i></span>
+		</section>
+		<section>
+			<div class="content">
+				<h3>Contestants</h3>
+				<p>After each audition, we will choose a performer to compete as one of the 15 finalists on March 28, 2014 at the final competition. Contestants can be any age and groups up to six (6) are welcome to compete.</p>
+				<div class="contestant">
+					<div class="profile" style="background-image: url(<?php echo get_bloginfo('template_directory') ?>/assets/img/tysonc.jpg)">&nbsp;</div>
+					<h4>Tyson C</h4>
+					<p><small>Musician</small></p>
+				</div>
+				<div class="contestant">
+					<div class="profile ghost"></div>
+					<h4>You</h4>
+					<a class="btn orange small">Audition Now</a>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="content">
+				<h3>Sponsors</h3>
+				<span>A special "Thank You" to those who are making this event a success!</span>
+				<div class="sponsor">
+					<a href="http://campusunity.com/about" target="_blank">
+						<img class="logo" src="http://campusunity.com/wp-content/uploads/2013/03/copy-summit-web-horiz.png" alt="The Summit College Ministry" />
+					</a>
+					<p><small>Producer of The Platform</small></p>
+				</div>
+				<div class="sponsor">
+					<a href="http://newjc.org" target="_blank">
+						<img class="logo" src="<?php echo get_bloginfo('template_directory') ?>/assets/img/newjc-seal.png" alt="New Jerusalem Cathedral" />
+					</a>
+					<p><small>Financial Sponsor</small></p>
+				</div>
+				<div class="sponsor">
+					<img class="logo" src="<?php echo get_bloginfo('template_directory') ?>/assets/img/cts-productions.jpg" alt="CTS Productions" />
+					<p><small>Audition Sponsor</small></p>
+				</div>
+			</div>
+		</section>
+		<section class="quote orange right-align">
+			<span>"Everything is possible for one who believes." <i>-Jesus</i></span>
+		</section>
+		<section>
+			<div class="content left-align">
+				<h3>Scholarships</h3>
+				<p>A portion of the proceeds from The Platform will go towards scholarships for NC students that are currently enrolled in college. Scholarships will be drawn at random. You must complete a short application and be present to win.</p>
+				<p>&nbsp;</p>
+				<div class="btn-group">
+					<a class="btn blue outline">Buy Ticket $10</a>
+					<a class="btn blue">Apply Now</a>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="content">
+				<span>Questions? Contact us at <a href="mailto:info@theplatformnc.com">info@theplatformnc.com</a></span>
+				<p>&copy 2013 The Summit College Ministry. All Rights Reserved. Site designed by <a href="mailto:success@lemonboxapps.com">LemonBox Apps</a></p>
+			</div>
+		</section>
+	</body>
+
+
+</html>
+
+<?php wp_footer(); ?>
