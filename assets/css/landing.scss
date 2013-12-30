@@ -1,0 +1,487 @@
+$blue: #1ca7e0;
+$orange: #FF4500;
+$red: #cc3333;
+
+@font-face {
+    font-family: 'latobold';
+    src: url('../fonts/lato/lato-bol-webfont.eot');
+    src: url('../fonts/lato/lato-bol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato/lato-bol-webfont.woff') format('woff'),
+         url('../fonts/lato/lato-bol-webfont.ttf') format('truetype'),
+         url('../fonts/lato/lato-bol-webfont.svg#latobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'latolight';
+    src: url('../fonts/lato/lato-lig-webfont.eot');
+    src: url('../fonts/lato/lato-lig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato/lato-lig-webfont.woff') format('woff'),
+         url('../fonts/lato/lato-lig-webfont.ttf') format('truetype'),
+         url('../fonts/lato/lato-lig-webfont.svg#latolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato/lato-reg-webfont.eot');
+    src: url('../fonts/lato/lato-reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato/lato-reg-webfont.woff') format('woff'),
+         url('../fonts/lato/lato-reg-webfont.ttf') format('truetype'),
+         url('../fonts/lato/lato-reg-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'latolight', Helvetica Neue;
+}
+
+div, span, section {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	width: 100%;
+	display: block;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'latolight';
+    line-height: 40px;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-family: 'latolight';
+    color: #303333;
+    font-size: 30px;
+    margin: 0;
+}
+
+a {
+    font-weight: bold;
+    cursor: pointer;
+    color: $blue;
+
+    &.red {
+        color: $red;
+    }
+
+    img {
+        outline: none;
+        border: none;
+    }
+
+}
+
+h4 {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'latobold';
+    font-size: 20px;
+
+    &.blue {
+        color: $blue;
+    }
+
+    &.orange {
+        color: $orange;
+    }
+
+}
+
+p {
+    margin: 10px 0 0;
+    color: #777;
+    font-size: 18px;
+    line-height: 30px;
+
+    small {
+        font-size: 13px;
+    }
+
+}
+
+span {
+    color: #999;
+    font: 1.5em 'latoregular', sans-serif;
+    padding-top: 0px;  
+    margin-top: 15px;
+    margin-bottom: 25px;
+
+    &.ghost {
+        opacity: 0.4;
+    }
+
+    a {
+        text-decoration: none;
+        color: #777;
+    }
+}
+
+strong, b {
+    font-family: 'latobold';
+}
+
+section {
+	overflow: hidden;
+	
+	&:nth-child(odd) {
+		border-top: 1px solid #EEEEEE;
+		background-color: #F8F8F8;
+	}
+
+    .content { 
+        width: 940px;
+        margin: 0 auto;
+        position: relative;
+        padding: 60px 15px;
+        overflow: hidden;
+        text-align: center;
+
+        &.left-align {
+            text-align: left;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+    }
+
+    &.quote {
+        background: $blue;
+        color: white;
+
+        span {
+            color: inherit;
+            font-size: 40px;
+            padding: 20px 30px;
+            font-family: 'latolight';
+            opacity: .8;
+
+            &:hover {
+                opacity: inherit;
+            }
+
+        }
+    }
+
+}
+
+section#top {
+	background-color: #222;
+	overflow: hidden;
+	max-height: 600px;
+	padding: 0;
+    border-top: none;
+
+    .overlay {
+        position: absolute;
+        width: 100%;
+        height: 600px;
+        background: url(../img/orange-shadow.png);
+    }
+
+	video {
+		width: 100%;
+	}
+
+    #logo {
+        width: 200px;
+        display: block;
+
+        img {
+            width: 100%;
+        }
+
+    }
+
+    .content {
+        padding-top: 100px;
+        color: #fff;
+        text-align: left;
+    }
+
+    #audtion {
+        position: absolute;
+        background: url(../img/white-overlay.png);
+        height: 100px;
+        width: 100%;
+        bottom: 150px;
+        display: none;
+    }
+}
+
+a {
+    display: inline-block;
+
+    &.btn {
+        font-family: 'latolight';
+        text-transform: uppercase;
+        padding: 15px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 7px;
+        border: 2px solid #fff;
+
+        &.orange {
+            background-color: #FF4500;
+            border: 2px solid #FF4500;
+            color: #fff;
+
+            &.outline:hover {
+                background-color: $orange;
+                color: #fff;
+            }
+
+        }
+
+        &.blue {
+            background-color: $blue;
+            border: 2px solid #1ca7e0;
+            color: #fff;
+
+            &.outline:hover {
+                background-color: $blue;
+                color: #fff;
+            }
+        }
+
+        &.red {
+            background-color: $red;
+            color: #fff;
+            border: 2px solid $red;
+        }
+
+        &.outline {
+            background-color: transparent;
+            color: inherit;
+        }
+
+        &.small {
+            padding: 7px 10px;
+            font-size: 14px;
+        }
+    }
+}
+
+.btn-group {
+    
+    .btn {
+        margin-right: 10px;
+
+        &:last-of-type {
+            margin-right: 0;
+        }
+
+    }
+
+}
+
+.contestant, .sponsor {
+    
+    width: 150px;
+    height: 220px;
+    float: left;
+    margin: 15px 15px;
+    text-align: center;
+    
+    h4 {
+        margin-bottom: 5px;
+    }
+
+    p {
+        margin: 0;
+        line-height: 14px;
+    }
+
+    .profile { 
+        background-image: url(../img/user-icon.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        height: 150px;
+        width: 100%;
+        margin-bottom: 15px;
+        border-radius: 100px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+        filter: gray; /* IE6-9 */
+        -webkit-filter: grayscale(1);
+        overflow: hidden;
+        cursor: pointer;
+
+        &.ghost {
+            opacity: 0.4;
+        }
+
+        &:hover {
+            filter: none;
+            -webkit-filter: grayscale(0);
+            opacity: 1;
+        }
+    }
+
+    img {
+        max-width: 100%;
+        max-height: 120px;
+    }
+
+}
+
+.sponsor {
+    height: 150px;
+    width: 250px;
+    float: none;
+    display: table-cell;
+    vertical-align: middle;
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+}
+
+table {
+    width: 100%;
+    margin-top: 30px;
+    border: none;
+    font-family: 'latolight';
+    border-spacing: 0;
+    table-layout: fixed;
+
+    &.breakaway {
+        border-spacing: 7px;
+    }
+
+    thead {
+        background-color: $orange;
+    }
+
+    tbody {
+        background: #fff;
+        border: none;
+    }
+
+    tr, td, th {
+        border: none;
+        padding: 10px 15px;
+        color: #333;
+
+        a.btn {
+            margin: 0 auto;
+        }
+
+    }
+
+    th {
+        text-transform: uppercase;
+        text-align: left;
+        color: #fff;
+        font-size: 16px;
+    }
+
+}
+
+.third {
+    float: left;
+    width: 33.3%;
+    padding: 0 20px;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.left-wide {
+    float: left; width: 600px; margin-right: 40px;
+}
+
+@media (max-width: 768px) {
+    
+    body {
+        overflow: hidden;
+        font-family: Helvetica Neue;
+    }
+
+    h2, h3 {
+        display: block;
+        font-family: Helvetica Neue;
+        font-weight: 300;
+        line-height: 30px;
+    }
+
+    section {
+
+        .content {
+            width: 100%;
+        }
+
+    }
+
+    section#top {
+        height: 420px;
+
+        video {
+            display: none;
+        }
+
+        .content {
+            padding-top: 15px;
+
+            #logo {
+                width: 150px;
+            }
+
+        }
+
+        .overlay {
+            height: 420px;
+        }
+    }
+
+    #css-video {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: right;
+        height: 100%;
+    }
+
+    .btn-group {
+    
+        .btn {
+            margin-bottom: 10px;
+
+            &:last-of-type {
+                margin-right: 0;
+            }
+
+        }
+
+    }
+
+    .left-wide, .third, .contestant, .sponsor {
+        width: 100%;
+        margin-bottom: 15px;
+        display: block;
+        margin: 0;
+    }
+}
