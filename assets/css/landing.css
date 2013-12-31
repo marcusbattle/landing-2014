@@ -33,7 +33,8 @@ div, span, section {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   width: 100%;
-  display: block; }
+  display: block;
+  position: relative; }
 
 h2 {
   font-size: 30px;
@@ -73,7 +74,8 @@ p {
   font-size: 18px;
   line-height: 30px; }
   p small {
-    font-size: 13px; }
+    font-size: 13px;
+    line-height: 18px; }
 
 span {
   color: #999;
@@ -101,7 +103,8 @@ section {
     position: relative;
     padding: 60px 15px;
     overflow: hidden;
-    text-align: center; }
+    text-align: center;
+    background-color: transparent; }
     section .content.left-align {
       text-align: left; }
     section .content img {
@@ -121,7 +124,7 @@ section {
 section#top {
   background-color: #222;
   overflow: hidden;
-  max-height: 600px;
+  height: 600px;
   padding: 0;
   border-top: none; }
   section#top .overlay {
@@ -131,7 +134,10 @@ section#top {
     background: url(../img/orange-shadow.png);
     z-index: 10; }
   section#top video {
-    width: 100%; }
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+    top: 0; }
   section#top #logo {
     width: 200px;
     display: block; }
@@ -156,11 +162,20 @@ a {
   a.btn {
     font-family: 'latolight';
     text-transform: uppercase;
-    padding: 15px 20px;
+    padding: 0 20px;
+    line-height: 44px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 7px;
-    border: 2px solid #fff; }
+    border: 2px solid #fff;
+    text-decoration: none; }
+    a.btn span {
+      padding: 0;
+      margin: 0;
+      display: inherit;
+      color: inherit;
+      width: auto;
+      font-size: inherit; }
     a.btn.orange {
       background-color: #FF4500;
       border: 2px solid #FF4500;
@@ -183,8 +198,9 @@ a {
       background-color: transparent;
       color: inherit; }
     a.btn.small {
-      padding: 7px 10px;
-      font-size: 14px; }
+      padding: 0 10px;
+      font-size: 14px;
+      line-height: 32px; }
 
 .btn-group .btn {
   margin-right: 10px; }
@@ -281,6 +297,85 @@ ul.table {
   width: 600px;
   margin-right: 40px; }
 
+.modal {
+  position: fixed;
+  z-index: 999;
+  background-image: url(../img/darker-shadow.png);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  padding: 15px;
+  overflow: scroll;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+  display: none; }
+  .modal > div {
+    margin: 10% auto;
+    width: 600px;
+    padding: 20px 10px 10px;
+    background-color: #eee;
+    display: none;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px; }
+  .modal h3 {
+    margin-bottom: 15px; }
+  .modal h4 {
+    font-size: 18px; }
+  .modal .close {
+    position: absolute;
+    right: 15px;
+    top: 15px; }
+
+form {
+  margin-top: 15px; }
+  form ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 0;
+    clear: both; }
+    form ul li {
+      display: block;
+      position: relative;
+      font-family: inherit; }
+    form ul label {
+      display: block;
+      width: 100%; }
+    form ul input,
+    form ul select,
+    form ul textarea {
+      display: block;
+      border: none;
+      padding: 10px;
+      font-family: inherit;
+      font-size: 16px;
+      width: 100%;
+      border-radius: 0; }
+    form ul div {
+      display: -webkit-box;
+      /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+      display: -moz-box;
+      /* OLD: Firefox (buggy) */
+      display: -ms-flexbox;
+      /* MID: IE 10 */
+      display: -webkit-flex;
+      /* NEW, Chrome 21+ */
+      display: box;
+      display: flex; }
+      form ul div input,
+      form ul div select,
+      form ul div textarea {
+        margin: 0 2px 0 0;
+        -webkit-box-flex: 1;
+        box-flex: 1;
+        flex: 1; }
+      form ul div input:last-of-type,
+      form ul div select:last-of-type,
+      form ul div textarea:last-of-type {
+        margin-right: 0; }
+    form ul.credit-card input[name="card_number"] {
+      width: 100%; }
+
 @media (max-width: 768px) {
   body {
     overflow: hidden;
@@ -342,4 +437,12 @@ ul.table {
     ul.table li {
       display: block;
       background-color: #fff;
-      padding: 7px; } }
+      padding: 7px; }
+
+  .modal > div {
+    width: 100%; }
+  .modal .close {
+    position: relative;
+    width: 100%;
+    text-align: right;
+    top: 0; } }

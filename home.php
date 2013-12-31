@@ -11,7 +11,7 @@
 					<a id="logo"><img src="<?php echo get_bloginfo('template_directory') ?>/assets/img/the-platform-logo.png" /></a>
 					<h2>Fifteen performers. One stage. <br />Your chance.</h2>
 					<div class="btn-group">
-						<a class="btn outline">Learn More</a>
+						<a class="btn outline" href="#about">Learn More</a>
 						<a class="btn orange">Audition Now</a>
 					</div>
 				</div>
@@ -22,7 +22,7 @@
 			</video>
 			<div id="css-video" style="background-image: url(<?php echo get_bloginfo('template_directory') ?>/assets/img/band-blue-small.gif);"></div>
 		</section>
-		<section>
+		<section id="about">
 			<div class="content left-align">
 				<h3>Sing. Play. Dance. Inspire.</h3>
 				<span>The Platform is an inspiriational talent competition for singers, musicians and dancers.</span>
@@ -36,7 +36,7 @@
 					<h4 class="blue">March 28, 2014</h4>
 					<p style="line-height: 22px;">Carolina Theatre<br />310 S. Greene St<br />Greensboro, NC</p>
 					<p>Time: 7-10PM</p>
-					<a class="btn blue outline" style="margin-top: 10px;">Buy Ticket $10</a>
+					<a class="btn blue outline" rel="#buy-ticket" style="margin-top: 10px;">Buy Ticket $10</a>
 				</div>
 			</div>
 		</section>
@@ -77,7 +77,7 @@
 							<li>January 18th</li>
 							<li>7-10PM</li>
 							<li>CTS Productions<br />205 Lyndon St, Greensboro, NC</li>
-							<li><a class="btn orange outline">Register $5</a></li>
+							<li><a class="btn orange outline" rel="#register">Register $5</a></li>
 						</ul>
 						<ul>
 							<li>January 22nd</li>
@@ -95,13 +95,13 @@
 							<li>January 29th</li>
 							<li>4-7PM</li>
 							<li>UNCG<br />EUC Birch RM</li>
-							<li><a class="btn orange outline">Register $5</a></li>
+							<li><a class="btn orange outline" rel="#register">Register $5</a></li>
 						</ul>
 						<ul>
 							<li>January 30th</li>
 							<li>4-7PM</li>
 							<li>UNCG<br />EUC Birch RM</li>
-							<li><a class="btn orange outline">Register $5</a></li>
+							<li><a class="btn orange outline" rel="#register">Register $5</a></li>
 						</ul>
 						<ul>
 							<li>February 1st</li>
@@ -181,6 +181,54 @@
 				<p>&copy 2013 The Summit College Ministry. All Rights Reserved. Site designed by <a href="mailto:success@lemonboxapps.com">LemonBox Apps</a></p>
 			</div>
 		</section>
+
+		<div class="modal">
+			<div id="buy-ticket">	
+				<a class="close">Close</a>
+				<span>Good news! Your ticket will help one student complete their education.</span>
+				<p><small>A portion of all ticket sales will provide scholarships for North Carolina students.</small></p>
+				<form>
+					<h4>Info</h4>
+					<ul>
+						<li>
+							<input type="text" name="name" placeholder="Name on Card" />
+						</li>
+						<li>
+							<input type="email" name="email" placeholder="E-mail" />
+						</li>
+						<li>
+							<label>Quantity</label>
+							<input type="number" name="quantity" value="1" />
+						</li>
+					</ul>
+					<h4>Credit Card</h4>
+					<ul class="credit-card">
+						<li>
+							<input type="text" name="card_number" placeholder="4444 4444 4444 4444" />
+						</li>
+						<li>
+							<div>
+								<input type="text" name="exp_month" placeholder="Exp MM" />
+								<input type="text" name="exp_year" placeholder="Exp YYYY" />
+								<input type="text" name="cvc" placeholder="CVC" />
+							</div>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a class="btn orange">Buy Ticket <span class="total-text">$10</span></a>
+							<input type="hidden"name="total" value="10" />
+						</li>
+					</ul>
+				</form>	
+			</div>
+			<div id="register">
+				<a class="close">Close</a>
+				<span>Overcome those fears. The platform is yours!</span>
+			</div>
+
+		</div>
+
 	</body>
 
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
@@ -190,6 +238,30 @@
 			$(document).ready(function(){
 				if(screen.width < 768 ) $('video').remove();
 				else $('#css-video').remove();
+
+				// Modal
+				$('.close').on('click', function(e){
+					$('.modal,.modal > div').hide();
+				});
+
+				$('a').on('click', function(e){
+					e.preventDefault();
+
+					if ( $(this).attr('rel').length ) {
+						$('.modal').show();
+						$($(this).attr('rel')).show();
+					}
+
+					if ( $(this).attr('href').length ) {
+						window.Location = $(this).attr('href');
+					}
+
+				});
+
+				$('input[name="quantity"]').on('keyup', function(){
+					$('.total-text').text( '$' + (10 * $('input[name="quantity"]').val()) );
+				});
+
 			});
 
 		})(jQuery);
