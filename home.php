@@ -183,7 +183,17 @@
 		</section>
 	</body>
 
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script>
+		(function($){
+			
+			$(document).ready(function(){
+				if(screen.width < 768 ) $('video').remove();
+				else $('#css-video').remove();
+			});
 
+		})(jQuery);
+	</script>
+	<?php wp_footer(); ?>
 </html>
 
-<?php wp_footer(); ?>
