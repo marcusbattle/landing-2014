@@ -304,12 +304,12 @@ ul.table {
         width: 150px; }
     section#top .overlay {
       height: 420px; }
-
-  #css-video {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: right;
-    height: 100%; }
+    section#top #css-video {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-x: right;
+      height: 100%;
+      display: block; }
 
   .btn-group .btn {
     margin-bottom: 10px; }
