@@ -66,66 +66,50 @@
 				<div>
 					<h3>Audition Dates</h3>
 					<span>If you would like to host an audition in your city, email <a href="mailto:info@theplatformnc.com">info@theplatformnc.com</a></span>
-					<table class="breakaway">
-						<thead>
-							<tr>
-								<th>Date</th>
-								<th>Time</th>
-								<th width="400px">Location</th>
-								<th width="180px"></th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>January 18th</td>
-								<td>7-10PM</td>
-								<td>CTS Productions<br />205 Lyndon St, Greensboro, NC</td>
-								<td><a class="btn orange outline">Register $5</a></td>
-							</tr>
-							<tr>
-								<td>January 22nd</td>
-								<td>3-7PM</td>
-								<td>NCA&amp;T</td>
-								<td>TBA</td>
-							</tr>
-							<tr>
-								<td>January 23rd</td>
-								<td>3-7PM</td>
-								<td>NCA&amp;T</td>
-								<td>TBA</td>
-							</tr>
-							<!-- <tr>
-								<td>Janaury 24th</td>
-								<td>5-8PM</td>
-								<td>Raleigh, NC</td>
-								<td>TBA</td>
-							</tr> -->
-							<!-- <tr>
-								<td>Janaury 25th</td>
-								<td>10AM-2PM</td>
-								<td>Winston Salem, NC</td>
-								<td>TBA</td>
-							</tr> -->
-							<tr>
-								<td>January 29th</td>
-								<td>4-7PM</td>
-								<td>UNCG<br />EUC Birch RM</td>
-								<td><a class="btn orange outline">Register $5</a></td>
-							</tr>
-							<tr>
-								<td>January 30th</td>
-								<td>4-7PM</td>
-								<td>UNCG<br />EUC Birch RM</td>
-								<td><a class="btn orange outline">Register $5</a></td>
-							</tr>
-							<tr>
-								<td>February 1st</td>
-								<td>10AM-3PM</td>
-								<td>Raleigh, NC</td>
-								<td>TBA</td>
-							</tr>
-						</tbody>
-					</table>
+					<ul class="table">
+						<ul class="thead">
+							<li>Date</li>
+							<li>Time</li>
+							<li style="width: 400px;">Location</li>
+							<li style="width: 180px;"></li>
+						</ul>
+						<ul>
+							<li>January 18th</li>
+							<li>7-10PM</li>
+							<li>CTS Productions<br />205 Lyndon St, Greensboro, NC</li>
+							<li><a class="btn orange outline">Register $5</a></li>
+						</ul>
+						<ul>
+							<li>January 22nd</li>
+							<li>3-7PM</li>
+							<li>NCA&amp;T</li>
+							<li>TBA</li>
+						</ul>
+						<ul>
+							<li>January 23rd</li>
+							<li>3-7PM</li>
+							<li>NCA&amp;T</li>
+							<li>TBA</li>
+						</ul>
+						<ul>
+							<li>January 29th</li>
+							<li>4-7PM</li>
+							<li>UNCG<br />EUC Birch RM</li>
+							<li><a class="btn orange outline">Register $5</a></li>
+						</ul>
+						<ul>
+							<li>January 30th</li>
+							<li>4-7PM</li>
+							<li>UNCG<br />EUC Birch RM</li>
+							<li><a class="btn orange outline">Register $5</a></li>
+						</ul>
+						<ul>
+							<li>February 1st</li>
+							<li>10AM-3PM</li>
+							<li>Raleigh, NC</li>
+							<li>TBA</li>
+						</ul>
+					</ul>
 				</div>
 				<p><strong>Why does it cost to audition?</strong> A portion of each registration provides scholarships for North Carolina college students.</p>
 				<p>&nbsp;</p>

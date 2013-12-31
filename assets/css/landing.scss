@@ -223,6 +223,10 @@ section#top {
         bottom: 150px;
         display: none;
     }
+
+    #css-video { 
+        display: none;
+    }
 }
 
 a {
@@ -356,45 +360,38 @@ a {
 
 }
 
-table {
+ul.table {
+
     width: 100%;
-    margin-top: 30px;
-    border: none;
-    font-family: 'latolight';
-    border-spacing: 0;
+    list-style: none;
+    padding: 0;
+    margin-left: 0;
+    text-align: left;
+    display: table;
+    border-spacing: 7px;
     table-layout: fixed;
 
-    &.breakaway {
-        border-spacing: 7px;
-    }
+    > ul {
+       list-style: none;
+        padding: 0;
+        margin-left: 0; 
+        width: 100%;
+        display: table-row;
 
-    thead {
-        background-color: $orange;
-    }
-
-    tbody {
-        background: #fff;
-        border: none;
-    }
-
-    tr, td, th {
-        border: none;
-        padding: 10px 15px;
-        color: #333;
-
-        a.btn {
-            margin: 0 auto;
+        &.thead li {
+            font-size: 17px;
+            background-color: $orange;
+            color: #fff;
+            text-transform: uppercase;
         }
-
     }
 
-    th {
-        text-transform: uppercase;
-        text-align: left;
-        color: #fff;
-        font-size: 16px;
+    li {
+        vertical-align: middle;
+        display: table-cell;
+        background-color: #fff;
+        padding: 10px 15px;
     }
-
 }
 
 .third {
@@ -480,8 +477,39 @@ table {
 
     .left-wide, .third, .contestant, .sponsor {
         width: 100%;
-        margin-bottom: 15px;
+        margin: 20px 0;
         display: block;
-        margin: 0;
+
+        .profile {
+            margin: 0 auto;
+            width: 150px;
+        }
+    }
+
+    ul.table {
+
+        width: 100%;
+        text-align: left;
+        display: block;
+        table-layout: none;
+
+        > ul {
+           list-style: none;
+            padding: 0;
+            margin-left: 0; 
+            width: 100%;
+            display: block;
+            margin-bottom: 15px;
+
+            &.thead {
+                display: none;
+            }
+        }
+
+        li {
+            display: block;
+            background-color: #fff;
+            padding: 7px;
+        }
     }
 }

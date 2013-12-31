@@ -147,6 +147,8 @@ section#top {
     width: 100%;
     bottom: 150px;
     display: none; }
+  section#top #css-video {
+    display: none; }
 
 a {
   display: inline-block; }
@@ -236,31 +238,31 @@ a {
   .sponsor .logo {
     margin-bottom: 10px; }
 
-table {
+ul.table {
   width: 100%;
-  margin-top: 30px;
-  border: none;
-  font-family: 'latolight';
-  border-spacing: 0;
+  list-style: none;
+  padding: 0;
+  margin-left: 0;
+  text-align: left;
+  display: table;
+  border-spacing: 7px;
   table-layout: fixed; }
-  table.breakaway {
-    border-spacing: 7px; }
-  table thead {
-    background-color: orangered; }
-  table tbody {
-    background: #fff;
-    border: none; }
-  table tr, table td, table th {
-    border: none;
-    padding: 10px 15px;
-    color: #333; }
-    table tr a.btn, table td a.btn, table th a.btn {
-      margin: 0 auto; }
-  table th {
-    text-transform: uppercase;
-    text-align: left;
-    color: #fff;
-    font-size: 16px; }
+  ul.table > ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 0;
+    width: 100%;
+    display: table-row; }
+    ul.table > ul.thead li {
+      font-size: 17px;
+      background-color: orangered;
+      color: #fff;
+      text-transform: uppercase; }
+  ul.table li {
+    vertical-align: middle;
+    display: table-cell;
+    background-color: #fff;
+    padding: 10px 15px; }
 
 .third {
   float: left;
@@ -316,6 +318,27 @@ table {
 
   .left-wide, .third, .contestant, .sponsor {
     width: 100%;
-    margin-bottom: 15px;
+    margin: 20px 0;
+    display: block; }
+    .left-wide .profile, .third .profile, .contestant .profile, .sponsor .profile {
+      margin: 0 auto;
+      width: 150px; }
+
+  ul.table {
+    width: 100%;
+    text-align: left;
     display: block;
-    margin: 0; } }
+    table-layout: none; }
+    ul.table > ul {
+      list-style: none;
+      padding: 0;
+      margin-left: 0;
+      width: 100%;
+      display: block;
+      margin-bottom: 15px; }
+      ul.table > ul.thead {
+        display: none; }
+    ul.table li {
+      display: block;
+      background-color: #fff;
+      padding: 7px; } }
