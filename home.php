@@ -12,7 +12,7 @@
 					<h2>Fifteen performers. One stage. <br />Your chance.</h2>
 					<div class="btn-group">
 						<a class="btn outline" href="#about">Learn More</a>
-						<a class="btn orange">Audition Now</a>
+						<a class="btn orange" href="#audition-dates">Audition Now</a>
 					</div>
 				</div>
 			</div>
@@ -26,7 +26,7 @@
 			<div class="content left-align">
 				<h3>Sing. Play. Dance. Inspire.</h3>
 				<span>The Platform is an inspiriational talent competition for singers, musicians and dancers.</span>
-				<p>The Platform is in search of the most inspirational singers, musicians and dancers on the East Coast. On March 28, 2014, 15 finalists will compete at the historic Greensboro Carolina Theatre for a cash prize of $1,000. After intense performances and moving melodies, the audience along with guest judges will decide who the most inspirational person is. The evening will conclude with a scholarship giveaway to area college students.</p>
+				<p>The Platform is in search of the most inspirational singers, musicians and dancers on the East Coast. On March 28, 2014, 15 finalists will compete at the historic Greensboro Carolina Theatre for a cash prize of up to $1,000. After intense performances and moving melodies, the audience along with guest judges will decide who the most inspirational person is. The evening will conclude with a scholarship giveaway to area college students.</p>
 				<p>&nbsp;</p>
 				<div class="left-wide">
 					<img src="<?php echo get_bloginfo('template_directory') ?>/assets/img/carolina-theatre.jpg" /> 
@@ -61,7 +61,7 @@
 				</div>
 			</div>
 		</section>
-		<section>
+		<section id="audition-dates">
 			<div class="content">
 				<div>
 					<h3>Audition Dates</h3>
@@ -77,7 +77,7 @@
 							<li>January 18th</li>
 							<li>7-10PM</li>
 							<li>CTS Productions<br />205 Lyndon St, Greensboro, NC</li>
-							<li><a class="btn orange outline" rel="#register">Register $5</a></li>
+							<li><a class="btn orange outline" rel="#audition">Register $5</a></li>
 						</ul>
 						<ul>
 							<li>January 22nd</li>
@@ -95,13 +95,13 @@
 							<li>January 29th</li>
 							<li>4-7PM</li>
 							<li>UNCG<br />EUC Birch RM</li>
-							<li><a class="btn orange outline" rel="#register">Register $5</a></li>
+							<li><a class="btn orange outline" rel="#audition">Register $5</a></li>
 						</ul>
 						<ul>
 							<li>January 30th</li>
 							<li>4-7PM</li>
 							<li>UNCG<br />EUC Birch RM</li>
-							<li><a class="btn orange outline" rel="#register">Register $5</a></li>
+							<li><a class="btn orange outline" rel="#audition">Register $5</a></li>
 						</ul>
 						<ul>
 							<li>February 1st</li>
@@ -117,7 +117,7 @@
 				<p>&nbsp;</p>
 				<h4>Audition Online</h4>
 				<img src="<?php echo get_bloginfo('template_directory') ?>/assets/icons/youtube-square.png" align="left" style="margin-right: 20px;" />
-				<span class="left-align">If you can't make an in person audition, you may audition online up until Midnight, Saturday February 15th. Simply upload a video to YouTube and <a class="red">Register</a>.</span>
+				<span class="left-align">If you can't make an in person audition, you may audition online up until Midnight, Saturday February 15th. Simply upload a video to YouTube and <a class="red" rel="#audition-online">Register</a>.</span>
 			</div>
 		</section>
 		<section class="quote">
@@ -135,7 +135,7 @@
 				<div class="contestant">
 					<div class="profile ghost"></div>
 					<h4>You</h4>
-					<a class="btn orange small">Audition Now</a>
+					<a class="btn orange small" href="#audition-dates">Audition Now</a>
 				</div>
 			</div>
 		</section>
@@ -170,8 +170,8 @@
 				<p>A portion of the proceeds from The Platform will go towards scholarships for NC students that are currently enrolled in college. Scholarships will be drawn at random. You must complete a short application and be present to win.</p>
 				<p>&nbsp;</p>
 				<div class="btn-group">
-					<a class="btn blue outline">Buy Ticket $10</a>
-					<a class="btn blue">Apply Now</a>
+					<a class="btn blue outline" rel="#buy-ticket">Buy Ticket $10</a>
+					<a class="btn blue" rel="#scholarship">Apply Now</a>
 				</div>
 			</div>
 		</section>
@@ -185,48 +185,20 @@
 		<div class="modal">
 			<div id="buy-ticket">	
 				<a class="close">Close</a>
-				<span>Good news! Your ticket will help one student complete their education.</span>
-				<p><small>A portion of all ticket sales will provide scholarships for North Carolina students.</small></p>
-				<form>
-					<h4>Info</h4>
-					<ul>
-						<li>
-							<input type="text" name="name" placeholder="Name on Card" />
-						</li>
-						<li>
-							<input type="email" name="email" placeholder="E-mail" />
-						</li>
-						<li>
-							<label>Quantity</label>
-							<input type="number" name="quantity" value="1" />
-						</li>
-					</ul>
-					<h4>Credit Card</h4>
-					<ul class="credit-card">
-						<li>
-							<input type="text" name="card_number" placeholder="4444 4444 4444 4444" />
-						</li>
-						<li>
-							<div>
-								<input type="text" name="exp_month" placeholder="Exp MM" />
-								<input type="text" name="exp_year" placeholder="Exp YYYY" />
-								<input type="text" name="cvc" placeholder="CVC" />
-							</div>
-						</li>
-					</ul>
-					<ul>
-						<li>
-							<a class="btn orange">Buy Ticket <span class="total-text">$10</span></a>
-							<input type="hidden"name="total" value="10" />
-						</li>
-					</ul>
-				</form>	
+				<?php echo do_shortcode('[lemonbox_form name="The Platform Ticket 2014"]'); ?>	
 			</div>
-			<div id="register">
+			<div id="audition">
 				<a class="close">Close</a>
-				<span>Overcome those fears. The platform is yours!</span>
+				<?php echo do_shortcode('[lemonbox_form name="2014 Live Auditions"]'); ?>	
 			</div>
-
+			<div id="audition-online">
+				<a class="close">Close</a>
+				<?php echo do_shortcode('[lemonbox_form name="2014 Online Auditions"]'); ?>	
+			</div>
+			<div id="scholarship">
+				<a class="close">Close</a>
+				<?php echo do_shortcode('[lemonbox_form name="2014 Scholarship Giveaway"]'); ?>	
+			</div>
 		</div>
 
 	</body>
@@ -245,9 +217,9 @@
 				});
 
 				$('a').on('click', function(e){
-					e.preventDefault();
 
 					if ( $(this).attr('rel').length ) {
+						e.preventDefault();
 						$('.modal').show();
 						$($(this).attr('rel')).show();
 					}

@@ -470,78 +470,7 @@ ul.table {
     }
 }
 
-form {
-    margin-top: 15px;
 
-    ul {
-        list-style: none;
-        padding: 0;
-        margin-left: 0;
-        clear: both;
-
-        li {
-            display: block;
-            position: relative;
-            font-family: inherit;
-        }
-
-        label {
-            display: block;
-            width: 100%;
-        }
-
-        input,
-        select,
-        textarea {
-            display: block;
-            border: none;
-            padding: 10px;
-            font-family: inherit;
-            font-size: 16px;
-            width: 100%;
-            border-radius: 0;
-        }
-
-        div {
-            display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
-            display: -moz-box;      /* OLD: Firefox (buggy) */ 
-            display: -ms-flexbox;   /* MID: IE 10 */
-            display: -webkit-flex;  /* NEW, Chrome 21+ */
-            display: box;
-            display: flex;
-
-            input,
-            select,
-            textarea {
-                margin: 0 2px 0 0;
-                -webkit-box-flex: 1;
-                box-flex: 1;
-                flex: 1;
-            }
-
-            input:last-of-type,
-            select:last-of-type,
-            textarea:last-of-type {
-                margin-right: 0;
-            }
-
-        }
-
-        &.credit-card {
-
-            input[name="card_number"] {
-                width: 100%;
-            }
-
-            input[name="exp_month"],
-            input[name="exp_year"],
-            input[name="cvc"] {
-               
-            }
-
-        }
-    }
-}
 
 @media (max-width: 768px) {
     

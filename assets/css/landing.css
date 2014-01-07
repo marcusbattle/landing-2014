@@ -327,55 +327,6 @@ ul.table {
     right: 15px;
     top: 15px; }
 
-form {
-  margin-top: 15px; }
-  form ul {
-    list-style: none;
-    padding: 0;
-    margin-left: 0;
-    clear: both; }
-    form ul li {
-      display: block;
-      position: relative;
-      font-family: inherit; }
-    form ul label {
-      display: block;
-      width: 100%; }
-    form ul input,
-    form ul select,
-    form ul textarea {
-      display: block;
-      border: none;
-      padding: 10px;
-      font-family: inherit;
-      font-size: 16px;
-      width: 100%;
-      border-radius: 0; }
-    form ul div {
-      display: -webkit-box;
-      /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
-      display: -moz-box;
-      /* OLD: Firefox (buggy) */
-      display: -ms-flexbox;
-      /* MID: IE 10 */
-      display: -webkit-flex;
-      /* NEW, Chrome 21+ */
-      display: box;
-      display: flex; }
-      form ul div input,
-      form ul div select,
-      form ul div textarea {
-        margin: 0 2px 0 0;
-        -webkit-box-flex: 1;
-        box-flex: 1;
-        flex: 1; }
-      form ul div input:last-of-type,
-      form ul div select:last-of-type,
-      form ul div textarea:last-of-type {
-        margin-right: 0; }
-    form ul.credit-card input[name="card_number"] {
-      width: 100%; }
-
 @media (max-width: 768px) {
   body {
     overflow: hidden;
