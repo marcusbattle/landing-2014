@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<title><?php echo get_bloginfo() ?></title>
+		<meta property="og:image"content="<?php echo get_bloginfo('template_directory') ?>/assets/img/the-platform-logo.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<?php wp_head(); ?>
 		<link rel="stylesheet" type="text/css" href="<?php echo get_bloginfo('template_directory') ?>/assets/css/landing.css">
