@@ -180,7 +180,7 @@
 		<section>
 			<div class="content">
 				<span>Questions? Contact us at <a href="mailto:info@theplatformnc.com">info@theplatformnc.com</a></span>
-				<p>&copy 2013 The Summit College Ministry. All Rights Reserved. Site designed by <a href="mailto:success@lemonboxapps.com">LemonBox Apps</a></p>
+				<p>&copy 2013 The Summit College Ministry. All Rights Reserved. Site built on <a href="mailto:success@lemonboxapps.com"><img src="<?php echo get_bloginfo('template_directory') ?>/assets/img/lemonbox.png" style="height: 22px; position: relative; top: 5px; margin-left: 4px;" /></a></p>
 			</div>
 		</section>
 
