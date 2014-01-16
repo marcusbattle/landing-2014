@@ -83,15 +83,9 @@
 						</ul>
 						<ul>
 							<li>January 22nd</li>
-							<li>3-7PM</li>
-							<li>NCA&amp;T</li>
-							<li>TBA</li>
-						</ul>
-						<ul>
-							<li>January 23rd</li>
-							<li>3-7PM</li>
-							<li>NCA&amp;T</li>
-							<li>TBA</li>
+							<li>5-7:30PM</li>
+							<li>NCA&amp;T Union 209</li>
+							<li><a class="btn orange outline" rel="#audition">Register $5</a></li>
 						</ul>
 						<ul>
 							<li>January 29th</li>
