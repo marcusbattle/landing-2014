@@ -166,7 +166,7 @@
 				<p>A portion of the proceeds from The Platform will go towards scholarships for NC students that are currently enrolled in college. Scholarships will be drawn at random. You must complete a short application and be present to win.</p>
 				<p>&nbsp;</p>
 				<div class="btn-group">
-					<a class="btn blue outline" rel="#buy-ticket">Buy Ticket $10</a>
+					<a class="btn blue outline" rel="#buy-ticket">Buy Ticket $8</a>
 					<a class="btn blue" rel="#scholarship">Apply Now</a>
 				</div>
 			</div>
