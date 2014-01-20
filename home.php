@@ -38,7 +38,7 @@
 					<h4 class="blue">March 28, 2014</h4>
 					<p style="line-height: 22px;">Carolina Theatre<br />310 S. Greene St<br />Greensboro, NC</p>
 					<p>Time: 7-10PM</p>
-					<a class="btn blue outline" rel="#buy-ticket" style="margin-top: 10px;">Buy Ticket $10</a>
+					<a class="btn blue outline" rel="#buy-ticket" style="margin-top: 10px;">Buy Ticket $8</a>
 				</div>
 			</div>
 		</section>
@@ -122,16 +122,32 @@
 		<section>
 			<div class="content">
 				<h3>Contestants</h3>
+				<span>4 out of 15 finalists have been chosen</span>
 				<p>After each audition, we will choose a performer to compete as one of the 15 finalists on March 28, 2014 at the final competition. Contestants can be any age and groups up to six (6) are welcome to compete.</p>
+				<p>&nbsp;</p>
 				<div class="contestant">
-					<div class="profile" style="background-image: url(<?php echo get_bloginfo('template_directory') ?>/assets/img/tysonc.jpg)">&nbsp;</div>
+					<!--<div class="profile" style="background-image: url(<?php echo get_bloginfo('template_directory') ?>/assets/img/tysonc.jpg)">&nbsp;</div>
 					<h4>Tyson C</h4>
-					<p><small>Musician</small></p>
+					<p><small>Musician</small></p>-->
+					<iframe width="100%" height="315" src="//www.youtube.com/embed/KHxHGb1lKO8" frameborder="0" allowfullscreen></iframe>
+					<h4>Alonzo Gaines</h4>
+					<p>Singer - Winston Salem, NC</p>
 				</div>
 				<div class="contestant">
-					<div class="profile ghost"></div>
-					<h4>You</h4>
-					<a class="btn orange small" href="#audition-dates">Audition Now</a>
+					<iframe width="100%" height="315" src="//www.youtube.com/embed/vDAD_kPfv0Y?rel=0" frameborder="0" allowfullscreen></iframe>
+					<h4>Ryan Bowden</h4>
+					<p>Musician - Greensboro, NC</p>
+					<!--<a class="btn orange small" href="#audition-dates">Audition Now</a>-->
+				</div>
+				<div class="contestant">
+					<iframe width="100%" height="315" src="//www.youtube.com/embed/rlZYa2hcYtI?rel=0" frameborder="0" allowfullscreen></iframe>
+					<h4>Dexter Jordan</h4>
+					<p>Singer - Charlotte, NC</p>
+				</div>
+				<div class="contestant">
+					<iframe width="100%" height="315" src="//www.youtube.com/embed/2U4QOC3n0WE?rel=0" frameborder="0" allowfullscreen></iframe>
+					<h4>Aundrea Lanier-Hairston</h4>
+					<p>Dancer - Greensboro, NC</p>
 				</div>
 			</div>
 		</section>
@@ -174,7 +190,7 @@
 		<section>
 			<div class="content">
 				<span>Questions? Contact us at <a href="mailto:info@theplatformnc.com">info@theplatformnc.com</a></span>
-				<p>&copy 2013 The Summit College Ministry. All Rights Reserved. Site built on <a href="mailto:success@lemonboxapps.com"><img src="<?php echo get_bloginfo('template_directory') ?>/assets/img/lemonbox.png" style="height: 22px; position: relative; top: 5px; margin-left: 4px;" /></a></p>
+				<p>&copy 2013 The Summit College Ministry. All Rights Reserved. Copyright for audition music is the property of its respective owners. Site built on <a href="mailto:success@lemonboxapps.com"><img src="<?php echo get_bloginfo('template_directory') ?>/assets/img/lemonbox.png" style="height: 22px; position: relative; top: 5px; margin-left: 4px;" /></a></p>
 			</div>
 		</section>
 

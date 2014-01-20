@@ -366,6 +366,18 @@ a {
 
 }
 
+.contestant {
+    width: 50%;
+    margin: 0;
+    height: auto;
+    padding: 15px;
+
+    iframe {
+        margin-bottom: 10px;
+    }    
+
+}
+
 .sponsor {
     height: 150px;
     width: 250px;
