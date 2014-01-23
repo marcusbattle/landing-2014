@@ -168,6 +168,10 @@
 					<p><small>Financial Sponsor</small></p>
 				</div>
 				<div class="sponsor">
+					<a href="http://www.arbonne.com/index.asp?lang=eng" target="_blank"><img class="logo" src="<?php echo get_bloginfo('template_directory') ?>/assets/img/arbone.jpg" alt="Arbonne" /></a>
+					<p><small>Financial Sponsor</small></p>
+				</div>
+				<div class="sponsor">
 					<img class="logo" src="<?php echo get_bloginfo('template_directory') ?>/assets/img/cts-productions.jpg" alt="CTS Productions" />
 					<p><small>Audition Sponsor</small></p>
 				</div>
