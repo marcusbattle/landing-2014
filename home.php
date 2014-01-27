@@ -79,13 +79,13 @@
 							<li>January 18th</li>
 							<li>7-10PM</li>
 							<li>CTS Productions<br />205 Lyndon St, Greensboro, NC</li>
-							<li><a class="btn orange outline" rel="#audition">Register $5</a></li>
+							<li></li>
 						</ul>
 						<ul>
 							<li>January 22nd</li>
 							<li>5-7:30PM</li>
 							<li>NCA&amp;T Union 209</li>
-							<li><a class="btn orange outline" rel="#audition">Register $5</a></li>
+							<li></li>
 						</ul>
 						<ul>
 							<li>January 29th</li>
