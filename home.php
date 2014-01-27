@@ -99,12 +99,6 @@
 							<li>UNCG<br />EUC Birch RM</li>
 							<li><a class="btn orange outline" rel="#audition">Register $5</a></li>
 						</ul>
-						<ul>
-							<li>February 1st</li>
-							<li>10AM-3PM</li>
-							<li>Raleigh, NC</li>
-							<li>TBA</li>
-						</ul>
 					</ul>
 				</div>
 				<p><strong>Why does it cost to audition?</strong> A portion of each registration provides scholarships for North Carolina college students.</p>
