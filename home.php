@@ -91,7 +91,7 @@
 							<li>January 29th</li>
 							<li>4-7PM</li>
 							<li>UNCG<br />EUC Birch RM</li>
-							<li><a class="btn orange outline" rel="#audition">Register $5</a></li>
+							<li>CANCELLED DUE TO WEATHER</li>
 						</ul>
 						<ul>
 							<li>January 30th</li>
