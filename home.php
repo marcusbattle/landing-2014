@@ -63,7 +63,7 @@
 				</div>
 			</div>
 		</section>
-		<section id="audition-dates">
+		<!-- <section id="audition-dates">
 			<div class="content">
 				<div>
 					<h3>Audition Dates</h3>
@@ -109,14 +109,14 @@
 				<img src="<?php echo get_bloginfo('template_directory') ?>/assets/icons/youtube-square.png" align="left" style="margin-right: 20px;" />
 				<span class="left-align">If you can't make an in person audition, you may audition online up until Midnight, Saturday February 15th. Simply upload a video to YouTube and <a class="red" rel="#audition-online">Register</a>.</span>
 			</div>
-		</section>
+		</section> -->
 		<section class="quote">
 			<span>"An inspirational talent motivates and encourages you to forget what you think you can't do." <i>-The Platform</i></span>
 		</section>
 		<section>
 			<div class="content">
 				<h3>Contestants</h3>
-				<span>4 out of 15 finalists have been chosen</span>
+				<span>15 finalists have been chosen!</span>
 				<p>After each audition, we will choose a performer to compete as one of the 15 finalists on March 28, 2014 at the final competition. Contestants can be any age and groups up to six (6) are welcome to compete.</p>
 				<p>&nbsp;</p>
 				<div class="contestant">
