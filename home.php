@@ -187,7 +187,7 @@
 				<div class="contestant">
 					<iframe width="100%" height="315" src="//www.youtube.com/embed/sqjVyZBxK9M?rel=0" frameborder="0" allowfullscreen></iframe>
 					<h4>Nnenna Ukwu</h4>
-					<p>Singer - Greensboro, NC</p>
+					<p>Singer - Cary, NC</p>
 				</div>
 				<div class="contestant">
 					<iframe width="100%" height="315" src="//www.youtube.com/embed/sW9dSJtEvlk?rel=0" frameborder="0" allowfullscreen></iframe>
