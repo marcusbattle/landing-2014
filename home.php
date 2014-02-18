@@ -117,21 +117,27 @@
 			<div class="content">
 				<h3>Contestants</h3>
 				<span>15 finalists have been chosen!</span>
-				<p>After each audition, we will choose a performer to compete as one of the 15 finalists on March 28, 2014 at the final competition. Contestants can be any age and groups up to six (6) are welcome to compete.</p>
+				<p>These talented finalists will compete on March 28, 2014 at the final competition. Auditions are now closed.</p>
 				<p>&nbsp;</p>
 				<div class="contestant">
-					<!--<div class="profile" style="background-image: url(<?php echo get_bloginfo('template_directory') ?>/assets/img/tysonc.jpg)">&nbsp;</div>
-					<h4>Tyson C</h4>
-					<p><small>Musician</small></p>-->
-					<iframe width="100%" height="315" src="//www.youtube.com/embed/KHxHGb1lKO8" frameborder="0" allowfullscreen></iframe>
+					<iframe width="100%" height="315" src="//www.youtube.com/embed/23nxLS1PReU?rel=0" frameborder="0" allowfullscreen></iframe>
+					<h4>Myron Brown</h4>
+					<p>Musician - Winston Salem, NC</p>
+				</div>
+				<div class="contestant">
+					<iframe width="100%" height="315" src="//www.youtube.com/embed/TLhPEiFnjIA?rel=0" frameborder="0" allowfullscreen></iframe>
+					<h4>Bonnisha Howard</h4>
+					<p>Singer - Greensboro, NC</p>
+				</div>
+				<div class="contestant">
+					<iframe width="100%" height="315" src="//www.youtube.com/embed/KHxHGb1lKO8?rel=0" frameborder="0" allowfullscreen></iframe>
 					<h4>Alonzo Gaines</h4>
 					<p>Singer - Winston Salem, NC</p>
 				</div>
 				<div class="contestant">
-					<iframe width="100%" height="315" src="//www.youtube.com/embed/vDAD_kPfv0Y?rel=0" frameborder="0" allowfullscreen></iframe>
-					<h4>Ryan Bowden</h4>
-					<p>Musician - Greensboro, NC</p>
-					<!--<a class="btn orange small" href="#audition-dates">Audition Now</a>-->
+					<iframe width="100%" height="315" src="//www.youtube.com/embed/lgtgtV_1-mo?rel=0" frameborder="0" allowfullscreen></iframe>
+					<h4>Jelina Sheppard</h4>
+					<p>Singer - Greensboro, NC</p>
 				</div>
 				<div class="contestant">
 					<iframe width="100%" height="315" src="//www.youtube.com/embed/rlZYa2hcYtI?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -143,6 +149,53 @@
 					<h4>Aundrea Lanier-Hairston</h4>
 					<p>Dancer - Greensboro, NC</p>
 				</div>
+				<div class="contestant">
+					<iframe width="100%" height="315" src="//www.youtube.com/embed/O8fWION01rU?rel=0" frameborder="0" allowfullscreen></iframe>
+					<h4>Aisha Jones</h4>
+					<p>Singer - Asheboro, NC</p>
+				</div>
+				<div class="contestant">
+					<iframe width="100%" height="315" src="//www.youtube.com/embed/vDAD_kPfv0Y?rel=0" frameborder="0" allowfullscreen></iframe>
+					<h4>Ryan Bowden</h4>
+					<p>Musician - Greensboro, NC</p>
+				</div>
+				<div class="contestant">
+					<iframe width="100%" height="315" src="//www.youtube.com/embed/R5a3DOEoiqI?rel=0" frameborder="0" allowfullscreen></iframe>
+					<h4>Indonesia Hayes &amp; Byron Robusky</h4>
+					<p>Dancers - Greensboro, NC</p>
+				</div>
+				<div class="contestant">
+					<iframe width="100%" height="315" src="//www.youtube.com/embed/bMmXwHUF8Vw?rel=0" frameborder="0" allowfullscreen></iframe>
+					<h4>Cydni Walker</h4>
+					<p>Musician - Dresher, PA</p>
+				</div>
+				<div class="contestant">
+					<iframe width="100%" height="315" src="//www.youtube.com/embed/FMb3wbEHRhQ?rel=0" frameborder="0" allowfullscreen></iframe>
+					<h4>Brandon Green</h4>
+					<p>Singer - Greensboro, NC</p>
+				</div>
+				<div class="contestant">
+					<iframe width="100%" height="315" src="//www.youtube.com/embed/M30t43k4f0g?rel=0" frameborder="0" allowfullscreen></iframe>
+					<h4>Jamison Bethea</h4>
+					<p>Musician - Greensboro, NC</p>
+				</div>
+				<div class="contestant">
+					<iframe width="100%" height="315" src="//www.youtube.com/embed/KmK9tgmlS30?rel=0" frameborder="0" allowfullscreen></iframe>
+					<h4>Tirzah Witherspoon</h4>
+					<p>Singer - Greensboro, NC</p>
+				</div>
+				<div class="contestant">
+					<iframe width="100%" height="315" src="//www.youtube.com/embed/sqjVyZBxK9M?rel=0" frameborder="0" allowfullscreen></iframe>
+					<h4>Nnenna Ukwu</h4>
+					<p>Singer - Greensboro, NC</p>
+				</div>
+				<div class="contestant">
+					<iframe width="100%" height="315" src="//www.youtube.com/embed/sW9dSJtEvlk?rel=0" frameborder="0" allowfullscreen></iframe>
+					<h4>Titus Gant Quartet</h4>
+					<p>Musician - Greensboro, NC</p>
+				</div>
+				
+				
 			</div>
 		</section>
 		<section>
