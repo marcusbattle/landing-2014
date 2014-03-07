@@ -14,7 +14,7 @@
 					<h2>Fifteen performers. One stage. <br />Your chance.</h2>
 					<div class="btn-group">
 						<a class="btn outline" href="#about">Learn More</a>
-						<a class="btn orange" href="#about">Buy Ticket Now</a>
+						<a class="btn orange" href="#ticket">Buy Ticket Now</a>
 					</div>
 				</div>
 			</div>
@@ -35,7 +35,7 @@
 					<p><small>Carolina Theatre, Greensboro, NC</small></p>
 					<p>A portion of the proceeds from The Platform will go towards scholarships for NC students that are currently enrolled in college.</p>
 				</div>
-				<div style="float: left; width: 260px;">
+				<div id="ticket" style="float: left; width: 260px;">
 					<h4 class="blue">March 28, 2014</h4>
 					<p style="line-height: 22px;">Carolina Theatre<br />310 S. Greene St<br />Greensboro, NC</p>
 					<p>Time: 7-10PM</p>
