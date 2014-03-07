@@ -14,7 +14,7 @@
 					<h2>Fifteen performers. One stage. <br />Your chance.</h2>
 					<div class="btn-group">
 						<a class="btn outline" href="#about">Learn More</a>
-						<a class="btn orange" href="#audition-dates">Audition Now</a>
+						<a class="btn orange" href="#about">Buy Ticket Now</a>
 					</div>
 				</div>
 			</div>
@@ -33,14 +33,22 @@
 				<div class="left-wide">
 					<img src="<?php echo get_bloginfo('template_directory') ?>/assets/img/carolina-theatre.jpg" /> 
 					<p><small>Carolina Theatre, Greensboro, NC</small></p>
+					<p>A portion of the proceeds from The Platform will go towards scholarships for NC students that are currently enrolled in college.</p>
 				</div>
 				<div style="float: left; width: 260px;">
 					<h4 class="blue">March 28, 2014</h4>
 					<p style="line-height: 22px;">Carolina Theatre<br />310 S. Greene St<br />Greensboro, NC</p>
 					<p>Time: 7-10PM</p>
-					<a class="btn blue outline" rel="#buy-ticket" style="margin-top: 10px;">Buy Ticket $8</a>
+					<a class="btn blue outline" href="http://www.carolinatheatre.com/events-calendar-details.aspx?id=886" style="margin-top: 10px;">Buy Ticket Here</a>
+					<p>OR Call (336) 333-2605</p>
+					<ul style="padding-left: 15px;">
+						<li>Adults - $10</li>
+						<li>Children 12 &amp; Unders - $6</li>
+						<li>Groups of 10 or more - $8 <br />(Call to purchase)</li>
+					</ul>
 				</div>
 			</div>
+
 		</section>
 		<section class="quote">
 			<span>"Everyone has talent. What's rare is the courage to follow it to the dark places where it leads." <i>- Erica Long</i></span>
@@ -233,7 +241,7 @@
 				<p>A portion of the proceeds from The Platform will go towards scholarships for NC students that are currently enrolled in college. Scholarships will be drawn at random. You must complete a short application and be present to win.</p>
 				<p>&nbsp;</p>
 				<div class="btn-group">
-					<a class="btn blue outline" rel="#buy-ticket">Buy Ticket $8</a>
+					<a class="btn blue outline" href="http://www.carolinatheatre.com/events-calendar-details.aspx?id=886">Buy Ticket $10</a>
 					<a class="btn blue" rel="#scholarship">Apply Now</a>
 				</div>
 			</div>
